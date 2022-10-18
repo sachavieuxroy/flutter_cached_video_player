@@ -80,7 +80,7 @@ final class CachedVideoPlayer {
               context,
                   // TODO: need a way to set these programmatically. Maybe fork VideoPlayerPlatformInterface
                   1024*1024*1024,
-                  1024*1024*100);
+                  1024*1024*300);
       if (httpHeaders != null && !httpHeaders.isEmpty()) {
         cacheDataSourceFactory.setHeaders(httpHeaders);
       }
